@@ -93,7 +93,7 @@ all_data.append(cost)
 all_data.append(discount)
 all_data = [item for sublist in all_data for item in sublist]
 
-with open("result.txt", "w") as file:
+with open("output.txt", "w") as file:
     content = str(all_data)
     file.write(content)
     file.close()
